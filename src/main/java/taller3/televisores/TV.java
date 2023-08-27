@@ -15,7 +15,7 @@ public class TV {
 		
 		this.marca = marca;
 		this.estado = estado;
-		
+		agregarTV();
 	}
 	
 	public void setMarca(Marca marca) {
