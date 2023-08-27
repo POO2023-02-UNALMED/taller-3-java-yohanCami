@@ -124,7 +124,7 @@ public class TV {
 		if (estado) {
 			
 			if (!(volumen >= 7)) {
-				canal++;
+				volumen++;
 			}		
 	
 		}
@@ -134,8 +134,8 @@ public class TV {
 		
 		if (estado) {
 			
-			if (!(canal <= 0)) {
-				canal--;
+			if (!(volumen <= 0)) {
+				volumen--;
 			}		
 	
 		}
