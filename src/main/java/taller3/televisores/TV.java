@@ -109,7 +109,7 @@ public class TV {
 		}
 	}
 	
-	public void valumenUp() {
+	public void volumenUp() {
 		
 		if (estado) {
 			
@@ -122,7 +122,7 @@ public class TV {
 		}
 	}
 	
-	public void valumenDown() {
+	public void volumenDown() {
 		
 		if (estado) {
 			
