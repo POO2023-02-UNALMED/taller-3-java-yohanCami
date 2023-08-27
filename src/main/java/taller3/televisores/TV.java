@@ -28,8 +28,6 @@ public class TV {
 			this.canal = canal;
 		}
 		
-		this.canal = this.canal;
-		
 	}
 	
 	public void setPrecio(int precio) {
@@ -99,10 +97,10 @@ public class TV {
 	
 	public void canalUp() {
 		
-		if (this.estado) {
+		if (estado == true) {
 			
-			if (!(this.canal == 120)) {
-				this.canal = this.canal + 1;
+			if (!(canal == 120)) {
+				canal++;
 			}		
 	
 		}
