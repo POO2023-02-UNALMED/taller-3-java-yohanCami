@@ -135,7 +135,7 @@ public class TV {
 		if (estado) {
 			
 			if (!(canal >= 0)) {
-				canal++;
+				canal--;
 			}		
 	
 		}
