@@ -91,10 +91,10 @@ public class TV {
 		
 		if (estado) {
 	
-			if (canal == 120) {
-			
-			} else {
-				canal ++;
+			if (!(canal == 120)) {
+				
+				++canal;
+				
 			}
 			
 		}
@@ -104,10 +104,8 @@ public class TV {
 		
 		if (estado) {
 			
-			if (canal == 1) {
-			
-			} else {
-				canal --;
+			if (!(canal == 1)) {
+				--canal;
 			}
 			
 		}
