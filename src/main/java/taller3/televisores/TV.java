@@ -55,12 +55,16 @@ public class TV {
 		return volumen;
 	}
 	
-	public 	Control getControl() {
+	public Control getControl() {
 		return control;
 	}
 	
 	static public int getNumTV() {
 		return numTV;
+	}
+	
+	static public void setNumTV(int numero) {
+		numTV = numero;
 	}
 	
 	static public void agregarTV() {
