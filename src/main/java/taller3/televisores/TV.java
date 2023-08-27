@@ -90,12 +90,14 @@ public class TV {
 	public void canalUp() {
 		
 		if (estado) {
-	
-			if (!(canal == 120)) {
+			
+			if ((canal > 0) && (canal < 121)) {
 				
-				++canal;
+				if (!(canal == 120)) {
+					++canal;
+				}
 				
-			}
+			}		
 			
 		}
 	}
@@ -104,8 +106,12 @@ public class TV {
 		
 		if (estado) {
 			
-			if (!(canal == 1)) {
-				--canal;
+			if ((canal > 0) && (canal < 121)) {
+				
+				if (!(canal == 1)) {
+					--canal;
+				}
+				
 			}
 			
 		}
