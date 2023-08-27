@@ -51,7 +51,7 @@ public class TV {
 		return precio;
 	}
 	
-	public int getVolumen(int volumen) {
+	public int getVolumen() {
 		return volumen;
 	}
 	
