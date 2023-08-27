@@ -68,11 +68,11 @@ public class TV {
 	}
 	
 	static public void agregarTV() {
-		numTV++;
+		++numTV;
 	}
 	
 	static public void quitarTV() {
-		numTV--;
+		--numTV;
 	}
 	
 	public void turnOn() {
@@ -94,7 +94,7 @@ public class TV {
 			if (canal == 120) {
 			
 			} else {
-				canal++;
+				++canal;
 			}
 			
 		}
@@ -107,7 +107,7 @@ public class TV {
 			if (canal == 1) {
 			
 			} else {
-				canal--;
+				--canal;
 			}
 			
 		}
@@ -120,7 +120,7 @@ public class TV {
 			if (volumen == 7) {
 			
 			} else {
-				volumen++;
+				++volumen;
 			}
 			
 		}
@@ -133,7 +133,7 @@ public class TV {
 			if (volumen == 0) {
 			
 			} else {
-				volumen--;
+				--volumen;
 			}
 			
 		}
