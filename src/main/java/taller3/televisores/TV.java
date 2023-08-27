@@ -89,25 +89,25 @@ public class TV {
 	
 	public void canalUp() {
 		
-		if (estado) {
+		if (this.estado) {
 			
-			if (canal == 120) {
+			if (this.canal == 120) {
 				return;
 			}		
 			
-			canal++;
+			this.canal++;
 		}
 	}
 	
 	public void canalDown() {
 		
-		if (estado) {
+		if (this.estado) {
 			
-			if (canal == 1) {
+			if (this.canal == 1) {
 				return;
 			}		
 			
-			canal--;
+			this.canal--;
 			
 		}
 	}
