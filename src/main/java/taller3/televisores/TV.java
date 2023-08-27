@@ -97,9 +97,9 @@ public class TV {
 	
 	public void canalUp() {
 		
-		if (estado == true) {
+		if (estado) {
 			
-			if (!(canal == 120)) {
+			if ((canal >= 120)) {
 				canal++;
 			}		
 	
@@ -108,9 +108,9 @@ public class TV {
 	
 	public void canalDown() {
 		
-		if (this.estado) {
+		if (estado) {
 			
-			if (!(this.canal == 1)) {
+			if (!(this.canal <= 1)) {
 				this.canal = this.canal - 1;
 			}		
 				
