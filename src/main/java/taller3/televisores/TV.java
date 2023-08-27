@@ -86,6 +86,7 @@ public class TV {
 	public void turnOn() {
 		this.estado = true;
 		this.canal = 1;
+		this.volumen = 1;
 	}
 	
 	public void turnOff() {
@@ -122,12 +123,10 @@ public class TV {
 		
 		if (estado) {
 			
-			if (volumen == 7) {
-			
-			} else {
-				++volumen;
-			}
-			
+			if (!(volumen >= 7)) {
+				canal++;
+			}		
+	
 		}
 	}
 	
@@ -135,12 +134,10 @@ public class TV {
 		
 		if (estado) {
 			
-			if (volumen == 0) {
-			
-			} else {
-				--volumen;
-			}
-			
+			if (!(canal >= 0)) {
+				canal++;
+			}		
+	
 		}
 	}
 	
