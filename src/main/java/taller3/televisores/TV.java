@@ -28,6 +28,8 @@ public class TV {
 			this.canal = canal;
 		}
 		
+		this.canal = this.canal;
+		
 	}
 	
 	public void setPrecio(int precio) {
