@@ -99,7 +99,7 @@ public class TV {
 		
 		if (estado) {
 			
-			if ((canal >= 120)) {
+			if (!(canal >= 120)) {
 				canal++;
 			}		
 	
@@ -110,8 +110,8 @@ public class TV {
 		
 		if (estado) {
 			
-			if (!(this.canal <= 1)) {
-				this.canal = this.canal - 1;
+			if (!(canal <= 1)) {
+				canal--;
 			}		
 				
 		}
