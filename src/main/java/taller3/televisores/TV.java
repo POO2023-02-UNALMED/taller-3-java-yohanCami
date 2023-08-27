@@ -85,6 +85,7 @@ public class TV {
 	
 	public void turnOn() {
 		this.estado = true;
+		this.canal = 1;
 	}
 	
 	public void turnOff() {
