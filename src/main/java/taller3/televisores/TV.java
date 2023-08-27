@@ -95,11 +95,10 @@ public class TV {
 		
 		if (this.estado) {
 			
-			if (this.canal == 120) {
-				return;
+			if (!(this.canal == 120)) {
+				this.canal++;
 			}		
-			
-			this.canal++;
+	
 		}
 	}
 	
@@ -107,12 +106,10 @@ public class TV {
 		
 		if (this.estado) {
 			
-			if (this.canal == 1) {
-				return;
+			if (!(this.canal == 1)) {
+				this.canal--;
 			}		
-			
-			this.canal--;
-			
+				
 		}
 	}
 	
