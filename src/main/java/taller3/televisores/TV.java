@@ -94,7 +94,7 @@ public class TV {
 			if (canal == 120) {
 			
 			} else {
-				++canal;
+				canal ++;
 			}
 			
 		}
@@ -107,7 +107,7 @@ public class TV {
 			if (canal == 1) {
 			
 			} else {
-				--canal;
+				canal --;
 			}
 			
 		}
